@@ -1,0 +1,26 @@
+[2.423s] Invoking command in '/home/eds-spiderbyte-01/ros2_motor/src/servo_control': PYTHONPATH=/home/eds-spiderbyte-01/ros2_motor/build/servo_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eds-spiderbyte-01/ros2_motor/install/servo_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/servo_control build --build-base /home/eds-spiderbyte-01/ros2_motor/build/servo_control/build install --record /home/eds-spiderbyte-01/ros2_motor/build/servo_control/install.log --single-version-externally-managed install_data
+[3.569s] running egg_info
+[3.572s] writing ../../build/servo_control/servo_control.egg-info/PKG-INFO
+[3.574s] writing dependency_links to ../../build/servo_control/servo_control.egg-info/dependency_links.txt
+[3.575s] writing entry points to ../../build/servo_control/servo_control.egg-info/entry_points.txt
+[3.576s] writing requirements to ../../build/servo_control/servo_control.egg-info/requires.txt
+[3.577s] writing top-level names to ../../build/servo_control/servo_control.egg-info/top_level.txt
+[3.584s] reading manifest file '../../build/servo_control/servo_control.egg-info/SOURCES.txt'
+[3.588s] writing manifest file '../../build/servo_control/servo_control.egg-info/SOURCES.txt'
+[3.589s] running build
+[3.589s] running build_py
+[3.591s] copying servo_control/servo_controller.py -> /home/eds-spiderbyte-01/ros2_motor/build/servo_control/build/lib/servo_control
+[3.591s] copying servo_control/servo_subscriber.py -> /home/eds-spiderbyte-01/ros2_motor/build/servo_control/build/lib/servo_control
+[3.592s] running install
+[3.593s] running install_lib
+[3.597s] copying /home/eds-spiderbyte-01/ros2_motor/build/servo_control/build/lib/servo_control/servo_controller.py -> /home/eds-spiderbyte-01/ros2_motor/install/servo_control/lib/python3.10/site-packages/servo_control
+[3.598s] copying /home/eds-spiderbyte-01/ros2_motor/build/servo_control/build/lib/servo_control/servo_subscriber.py -> /home/eds-spiderbyte-01/ros2_motor/install/servo_control/lib/python3.10/site-packages/servo_control
+[3.600s] byte-compiling /home/eds-spiderbyte-01/ros2_motor/install/servo_control/lib/python3.10/site-packages/servo_control/servo_controller.py to servo_controller.cpython-310.pyc
+[3.602s] byte-compiling /home/eds-spiderbyte-01/ros2_motor/install/servo_control/lib/python3.10/site-packages/servo_control/servo_subscriber.py to servo_subscriber.cpython-310.pyc
+[3.603s] running install_data
+[3.604s] running install_egg_info
+[3.611s] removing '/home/eds-spiderbyte-01/ros2_motor/install/servo_control/lib/python3.10/site-packages/servo_control-0.0.0-py3.10.egg-info' (and everything under it)
+[3.612s] Copying ../../build/servo_control/servo_control.egg-info to /home/eds-spiderbyte-01/ros2_motor/install/servo_control/lib/python3.10/site-packages/servo_control-0.0.0-py3.10.egg-info
+[3.617s] running install_scripts
+[3.707s] writing list of installed files to '/home/eds-spiderbyte-01/ros2_motor/build/servo_control/install.log'
+[3.791s] Invoked command in '/home/eds-spiderbyte-01/ros2_motor/src/servo_control' returned '0': PYTHONPATH=/home/eds-spiderbyte-01/ros2_motor/build/servo_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eds-spiderbyte-01/ros2_motor/install/servo_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/servo_control build --build-base /home/eds-spiderbyte-01/ros2_motor/build/servo_control/build install --record /home/eds-spiderbyte-01/ros2_motor/build/servo_control/install.log --single-version-externally-managed install_data

@@ -1,0 +1,4 @@
+pynput
+pyserial
+setuptools
+std_msgs

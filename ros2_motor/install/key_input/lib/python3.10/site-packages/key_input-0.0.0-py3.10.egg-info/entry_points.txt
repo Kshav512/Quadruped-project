@@ -1,0 +1,4 @@
+[console_scripts]
+Servo_Input = key_input.Servo_Input:main
+Servo_Input_Subscriber = key_input.Servo_Input_Subscriber:main
+

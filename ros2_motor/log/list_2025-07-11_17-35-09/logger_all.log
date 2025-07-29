@@ -1,0 +1,96 @@
+[0.178s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/eds-spiderbyte-01/ros2_motor']
+[0.178s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/eds-spiderbyte-01/ros2_motor'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x721a9bdff820>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x721a9bdbc580>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x721a9bdbc580>>, mixin_verb=('list',))
+[0.523s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.523s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.524s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.524s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.524s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.524s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/eds-spiderbyte-01/ros2_motor'
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eds-spiderbyte-01/ros2_motor) by extensions ['ignore', 'ignore_ament_install']
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eds-spiderbyte-01/ros2_motor) by extension 'ignore'
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eds-spiderbyte-01/ros2_motor) by extension 'ignore_ament_install'
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eds-spiderbyte-01/ros2_motor) by extensions ['colcon_pkg']
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eds-spiderbyte-01/ros2_motor) by extension 'colcon_pkg'
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eds-spiderbyte-01/ros2_motor) by extensions ['colcon_meta']
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eds-spiderbyte-01/ros2_motor) by extension 'colcon_meta'
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eds-spiderbyte-01/ros2_motor) by extensions ['ros']
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eds-spiderbyte-01/ros2_motor) by extension 'ros'
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eds-spiderbyte-01/ros2_motor) by extensions ['cmake', 'python']
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eds-spiderbyte-01/ros2_motor) by extension 'cmake'
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eds-spiderbyte-01/ros2_motor) by extension 'python'
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eds-spiderbyte-01/ros2_motor) by extensions ['python_setup_py']
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eds-spiderbyte-01/ros2_motor) by extension 'python_setup_py'
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eds-spiderbyte-01/ros2_motor/build) by extensions ['ignore', 'ignore_ament_install']
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eds-spiderbyte-01/ros2_motor/build) by extension 'ignore'
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eds-spiderbyte-01/ros2_motor/build) ignored
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eds-spiderbyte-01/ros2_motor/install) by extensions ['ignore', 'ignore_ament_install']
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eds-spiderbyte-01/ros2_motor/install) by extension 'ignore'
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eds-spiderbyte-01/ros2_motor/install) ignored
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eds-spiderbyte-01/ros2_motor/log) by extensions ['ignore', 'ignore_ament_install']
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eds-spiderbyte-01/ros2_motor/log) by extension 'ignore'
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eds-spiderbyte-01/ros2_motor/log) ignored
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eds-spiderbyte-01/ros2_motor/src) by extensions ['ignore', 'ignore_ament_install']
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eds-spiderbyte-01/ros2_motor/src) by extension 'ignore'
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eds-spiderbyte-01/ros2_motor/src) by extension 'ignore_ament_install'
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eds-spiderbyte-01/ros2_motor/src) by extensions ['colcon_pkg']
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eds-spiderbyte-01/ros2_motor/src) by extension 'colcon_pkg'
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eds-spiderbyte-01/ros2_motor/src) by extensions ['colcon_meta']
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eds-spiderbyte-01/ros2_motor/src) by extension 'colcon_meta'
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eds-spiderbyte-01/ros2_motor/src) by extensions ['ros']
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eds-spiderbyte-01/ros2_motor/src) by extension 'ros'
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eds-spiderbyte-01/ros2_motor/src) by extensions ['cmake', 'python']
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eds-spiderbyte-01/ros2_motor/src) by extension 'cmake'
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eds-spiderbyte-01/ros2_motor/src) by extension 'python'
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eds-spiderbyte-01/ros2_motor/src) by extensions ['python_setup_py']
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eds-spiderbyte-01/ros2_motor/src) by extension 'python_setup_py'
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eds-spiderbyte-01/ros2_motor/src/key_input) by extensions ['ignore', 'ignore_ament_install']
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eds-spiderbyte-01/ros2_motor/src/key_input) by extension 'ignore'
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eds-spiderbyte-01/ros2_motor/src/key_input) by extension 'ignore_ament_install'
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eds-spiderbyte-01/ros2_motor/src/key_input) by extensions ['colcon_pkg']
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eds-spiderbyte-01/ros2_motor/src/key_input) by extension 'colcon_pkg'
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eds-spiderbyte-01/ros2_motor/src/key_input) by extensions ['colcon_meta']
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eds-spiderbyte-01/ros2_motor/src/key_input) by extension 'colcon_meta'
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eds-spiderbyte-01/ros2_motor/src/key_input) by extensions ['ros']
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eds-spiderbyte-01/ros2_motor/src/key_input) by extension 'ros'
+[0.564s] DEBUG:colcon.colcon_core.package_identification:Package '/home/eds-spiderbyte-01/ros2_motor/src/key_input' with type 'ros.ament_python' and name 'key_input'
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eds-spiderbyte-01/ros2_motor/src/servo_control) by extensions ['ignore', 'ignore_ament_install']
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eds-spiderbyte-01/ros2_motor/src/servo_control) by extension 'ignore'
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eds-spiderbyte-01/ros2_motor/src/servo_control) by extension 'ignore_ament_install'
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eds-spiderbyte-01/ros2_motor/src/servo_control) by extensions ['colcon_pkg']
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eds-spiderbyte-01/ros2_motor/src/servo_control) by extension 'colcon_pkg'
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eds-spiderbyte-01/ros2_motor/src/servo_control) by extensions ['colcon_meta']
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eds-spiderbyte-01/ros2_motor/src/servo_control) by extension 'colcon_meta'
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eds-spiderbyte-01/ros2_motor/src/servo_control) by extensions ['ros']
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eds-spiderbyte-01/ros2_motor/src/servo_control) by extension 'ros'
+[0.567s] DEBUG:colcon.colcon_core.package_identification:Package '/home/eds-spiderbyte-01/ros2_motor/src/servo_control' with type 'ros.ament_python' and name 'servo_control'
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eds-spiderbyte-01/ros2_motor/src/single_leg) by extensions ['ignore', 'ignore_ament_install']
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eds-spiderbyte-01/ros2_motor/src/single_leg) by extension 'ignore'
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eds-spiderbyte-01/ros2_motor/src/single_leg) by extension 'ignore_ament_install'
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eds-spiderbyte-01/ros2_motor/src/single_leg) by extensions ['colcon_pkg']
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eds-spiderbyte-01/ros2_motor/src/single_leg) by extension 'colcon_pkg'
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eds-spiderbyte-01/ros2_motor/src/single_leg) by extensions ['colcon_meta']
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eds-spiderbyte-01/ros2_motor/src/single_leg) by extension 'colcon_meta'
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eds-spiderbyte-01/ros2_motor/src/single_leg) by extensions ['ros']
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eds-spiderbyte-01/ros2_motor/src/single_leg) by extension 'ros'
+[0.570s] DEBUG:colcon.colcon_core.package_identification:Package '/home/eds-spiderbyte-01/ros2_motor/src/single_leg' with type 'ros.ament_python' and name 'single_leg'
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eds-spiderbyte-01/ros2_motor/src/two_keys) by extensions ['ignore', 'ignore_ament_install']
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eds-spiderbyte-01/ros2_motor/src/two_keys) by extension 'ignore'
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eds-spiderbyte-01/ros2_motor/src/two_keys) by extension 'ignore_ament_install'
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eds-spiderbyte-01/ros2_motor/src/two_keys) by extensions ['colcon_pkg']
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eds-spiderbyte-01/ros2_motor/src/two_keys) by extension 'colcon_pkg'
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eds-spiderbyte-01/ros2_motor/src/two_keys) by extensions ['colcon_meta']
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eds-spiderbyte-01/ros2_motor/src/two_keys) by extension 'colcon_meta'
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eds-spiderbyte-01/ros2_motor/src/two_keys) by extensions ['ros']
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eds-spiderbyte-01/ros2_motor/src/two_keys) by extension 'ros'
+[0.572s] DEBUG:colcon.colcon_core.package_identification:Package '/home/eds-spiderbyte-01/ros2_motor/src/two_keys' with type 'ros.ament_python' and name 'two_keys'
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eds-spiderbyte-01/ros2_motor/src/two_motors) by extensions ['ignore', 'ignore_ament_install']
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eds-spiderbyte-01/ros2_motor/src/two_motors) by extension 'ignore'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eds-spiderbyte-01/ros2_motor/src/two_motors) by extension 'ignore_ament_install'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eds-spiderbyte-01/ros2_motor/src/two_motors) by extensions ['colcon_pkg']
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eds-spiderbyte-01/ros2_motor/src/two_motors) by extension 'colcon_pkg'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eds-spiderbyte-01/ros2_motor/src/two_motors) by extensions ['colcon_meta']
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eds-spiderbyte-01/ros2_motor/src/two_motors) by extension 'colcon_meta'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eds-spiderbyte-01/ros2_motor/src/two_motors) by extensions ['ros']
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eds-spiderbyte-01/ros2_motor/src/two_motors) by extension 'ros'
+[0.575s] DEBUG:colcon.colcon_core.package_identification:Package '/home/eds-spiderbyte-01/ros2_motor/src/two_motors' with type 'ros.ament_python' and name 'two_motors'
+[0.575s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

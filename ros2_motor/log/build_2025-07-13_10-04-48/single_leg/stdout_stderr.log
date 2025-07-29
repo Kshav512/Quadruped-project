@@ -1,0 +1,42 @@
+running egg_info
+creating ../../build/single_leg/single_leg.egg-info
+writing ../../build/single_leg/single_leg.egg-info/PKG-INFO
+writing dependency_links to ../../build/single_leg/single_leg.egg-info/dependency_links.txt
+writing entry points to ../../build/single_leg/single_leg.egg-info/entry_points.txt
+writing requirements to ../../build/single_leg/single_leg.egg-info/requires.txt
+writing top-level names to ../../build/single_leg/single_leg.egg-info/top_level.txt
+writing manifest file '../../build/single_leg/single_leg.egg-info/SOURCES.txt'
+reading manifest file '../../build/single_leg/single_leg.egg-info/SOURCES.txt'
+writing manifest file '../../build/single_leg/single_leg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/eds-spiderbyte-01/ros2_motor/build/single_leg/build
+creating /home/eds-spiderbyte-01/ros2_motor/build/single_leg/build/lib
+creating /home/eds-spiderbyte-01/ros2_motor/build/single_leg/build/lib/single_leg
+copying single_leg/point_to_point.py -> /home/eds-spiderbyte-01/ros2_motor/build/single_leg/build/lib/single_leg
+copying single_leg/linear_motion.py -> /home/eds-spiderbyte-01/ros2_motor/build/single_leg/build/lib/single_leg
+copying single_leg/__init__.py -> /home/eds-spiderbyte-01/ros2_motor/build/single_leg/build/lib/single_leg
+running install
+running install_lib
+creating /home/eds-spiderbyte-01/ros2_motor/install/single_leg/lib/python3.10/site-packages/single_leg
+copying /home/eds-spiderbyte-01/ros2_motor/build/single_leg/build/lib/single_leg/point_to_point.py -> /home/eds-spiderbyte-01/ros2_motor/install/single_leg/lib/python3.10/site-packages/single_leg
+copying /home/eds-spiderbyte-01/ros2_motor/build/single_leg/build/lib/single_leg/linear_motion.py -> /home/eds-spiderbyte-01/ros2_motor/install/single_leg/lib/python3.10/site-packages/single_leg
+copying /home/eds-spiderbyte-01/ros2_motor/build/single_leg/build/lib/single_leg/__init__.py -> /home/eds-spiderbyte-01/ros2_motor/install/single_leg/lib/python3.10/site-packages/single_leg
+byte-compiling /home/eds-spiderbyte-01/ros2_motor/install/single_leg/lib/python3.10/site-packages/single_leg/point_to_point.py to point_to_point.cpython-310.pyc
+  File "/home/eds-spiderbyte-01/ros2_motor/install/single_leg/lib/python3.10/site-packages/single_leg/point_to_point.py", line 56
+    phi = 
+          ^
+SyntaxError: invalid syntax
+
+byte-compiling /home/eds-spiderbyte-01/ros2_motor/install/single_leg/lib/python3.10/site-packages/single_leg/linear_motion.py to linear_motion.cpython-310.pyc
+byte-compiling /home/eds-spiderbyte-01/ros2_motor/install/single_leg/lib/python3.10/site-packages/single_leg/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/eds-spiderbyte-01/ros2_motor/install/single_leg/share/ament_index
+creating /home/eds-spiderbyte-01/ros2_motor/install/single_leg/share/ament_index/resource_index
+creating /home/eds-spiderbyte-01/ros2_motor/install/single_leg/share/ament_index/resource_index/packages
+copying resource/single_leg -> /home/eds-spiderbyte-01/ros2_motor/install/single_leg/share/ament_index/resource_index/packages
+copying package.xml -> /home/eds-spiderbyte-01/ros2_motor/install/single_leg/share/single_leg
+running install_egg_info
+Copying ../../build/single_leg/single_leg.egg-info to /home/eds-spiderbyte-01/ros2_motor/install/single_leg/lib/python3.10/site-packages/single_leg-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/eds-spiderbyte-01/ros2_motor/build/single_leg/install.log'

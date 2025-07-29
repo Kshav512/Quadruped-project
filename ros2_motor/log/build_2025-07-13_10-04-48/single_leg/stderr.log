@@ -1,0 +1,5 @@
+  File "/home/eds-spiderbyte-01/ros2_motor/install/single_leg/lib/python3.10/site-packages/single_leg/point_to_point.py", line 56
+    phi = 
+          ^
+SyntaxError: invalid syntax
+

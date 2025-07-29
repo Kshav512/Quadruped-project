@@ -1,0 +1,26 @@
+running egg_info
+writing ../../build/two_motors/two_motors.egg-info/PKG-INFO
+writing dependency_links to ../../build/two_motors/two_motors.egg-info/dependency_links.txt
+writing entry points to ../../build/two_motors/two_motors.egg-info/entry_points.txt
+writing requirements to ../../build/two_motors/two_motors.egg-info/requires.txt
+writing top-level names to ../../build/two_motors/two_motors.egg-info/top_level.txt
+reading manifest file '../../build/two_motors/two_motors.egg-info/SOURCES.txt'
+writing manifest file '../../build/two_motors/two_motors.egg-info/SOURCES.txt'
+running build
+running build_py
+copying two_motors/leg_sub.py -> /home/eds-spiderbyte-01/ros2_motor/build/two_motors/build/lib/two_motors
+copying two_motors/leg_pub.py -> /home/eds-spiderbyte-01/ros2_motor/build/two_motors/build/lib/two_motors
+running install
+running install_lib
+copying /home/eds-spiderbyte-01/ros2_motor/build/two_motors/build/lib/two_motors/leg_sub.py -> /home/eds-spiderbyte-01/ros2_motor/install/two_motors/lib/python3.10/site-packages/two_motors
+copying /home/eds-spiderbyte-01/ros2_motor/build/two_motors/build/lib/two_motors/leg_pub.py -> /home/eds-spiderbyte-01/ros2_motor/install/two_motors/lib/python3.10/site-packages/two_motors
+byte-compiling /home/eds-spiderbyte-01/ros2_motor/install/two_motors/lib/python3.10/site-packages/two_motors/leg_sub.py to leg_sub.cpython-310.pyc
+byte-compiling /home/eds-spiderbyte-01/ros2_motor/install/two_motors/lib/python3.10/site-packages/two_motors/leg_pub.py to leg_pub.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/eds-spiderbyte-01/ros2_motor/install/two_motors/lib/python3.10/site-packages/two_motors-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/two_motors/two_motors.egg-info to /home/eds-spiderbyte-01/ros2_motor/install/two_motors/lib/python3.10/site-packages/two_motors-0.0.0-py3.10.egg-info
+running install_scripts
+Installing leg_pub script to /home/eds-spiderbyte-01/ros2_motor/install/two_motors/lib/two_motors
+Installing leg_sub script to /home/eds-spiderbyte-01/ros2_motor/install/two_motors/lib/two_motors
+writing list of installed files to '/home/eds-spiderbyte-01/ros2_motor/build/two_motors/install.log'

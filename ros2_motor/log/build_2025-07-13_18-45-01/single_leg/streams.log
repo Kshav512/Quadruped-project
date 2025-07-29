@@ -1,0 +1,22 @@
+[1.913s] Invoking command in '/home/eds-spiderbyte-01/ros2_motor/src/single_leg': PYTHONPATH=/home/eds-spiderbyte-01/ros2_motor/build/single_leg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eds-spiderbyte-01/ros2_motor/install/single_leg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/single_leg build --build-base /home/eds-spiderbyte-01/ros2_motor/build/single_leg/build install --record /home/eds-spiderbyte-01/ros2_motor/build/single_leg/install.log --single-version-externally-managed install_data
+[2.440s] running egg_info
+[2.441s] writing ../../build/single_leg/single_leg.egg-info/PKG-INFO
+[2.442s] writing dependency_links to ../../build/single_leg/single_leg.egg-info/dependency_links.txt
+[2.442s] writing entry points to ../../build/single_leg/single_leg.egg-info/entry_points.txt
+[2.442s] writing requirements to ../../build/single_leg/single_leg.egg-info/requires.txt
+[2.442s] writing top-level names to ../../build/single_leg/single_leg.egg-info/top_level.txt
+[2.446s] reading manifest file '../../build/single_leg/single_leg.egg-info/SOURCES.txt'
+[2.448s] writing manifest file '../../build/single_leg/single_leg.egg-info/SOURCES.txt'
+[2.448s] running build
+[2.448s] running build_py
+[2.449s] running install
+[2.449s] running install_lib
+[2.451s] running install_data
+[2.452s] running install_egg_info
+[2.455s] removing '/home/eds-spiderbyte-01/ros2_motor/install/single_leg/lib/python3.10/site-packages/single_leg-0.0.0-py3.10.egg-info' (and everything under it)
+[2.455s] Copying ../../build/single_leg/single_leg.egg-info to /home/eds-spiderbyte-01/ros2_motor/install/single_leg/lib/python3.10/site-packages/single_leg-0.0.0-py3.10.egg-info
+[2.456s] running install_scripts
+[2.494s] Installing common_sub script to /home/eds-spiderbyte-01/ros2_motor/install/single_leg/lib/single_leg
+[2.494s] Installing point_to_point script to /home/eds-spiderbyte-01/ros2_motor/install/single_leg/lib/single_leg
+[2.495s] writing list of installed files to '/home/eds-spiderbyte-01/ros2_motor/build/single_leg/install.log'
+[2.537s] Invoked command in '/home/eds-spiderbyte-01/ros2_motor/src/single_leg' returned '0': PYTHONPATH=/home/eds-spiderbyte-01/ros2_motor/build/single_leg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eds-spiderbyte-01/ros2_motor/install/single_leg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/single_leg build --build-base /home/eds-spiderbyte-01/ros2_motor/build/single_leg/build install --record /home/eds-spiderbyte-01/ros2_motor/build/single_leg/install.log --single-version-externally-managed install_data

@@ -1,0 +1,33 @@
+[3.754s] Invoking command in '/home/eds-spiderbyte-01/ros2_motor/src/key_input': PYTHONPATH=/home/eds-spiderbyte-01/ros2_motor/build/key_input/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eds-spiderbyte-01/ros2_motor/install/key_input/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/key_input build --build-base /home/eds-spiderbyte-01/ros2_motor/build/key_input/build install --record /home/eds-spiderbyte-01/ros2_motor/build/key_input/install.log --single-version-externally-managed install_data
+[4.897s] running egg_info
+[4.899s] creating ../../build/key_input/key_input.egg-info
+[4.900s] writing ../../build/key_input/key_input.egg-info/PKG-INFO
+[4.901s] writing dependency_links to ../../build/key_input/key_input.egg-info/dependency_links.txt
+[4.902s] writing entry points to ../../build/key_input/key_input.egg-info/entry_points.txt
+[4.903s] writing requirements to ../../build/key_input/key_input.egg-info/requires.txt
+[4.903s] writing top-level names to ../../build/key_input/key_input.egg-info/top_level.txt
+[4.904s] writing manifest file '../../build/key_input/key_input.egg-info/SOURCES.txt'
+[4.910s] reading manifest file '../../build/key_input/key_input.egg-info/SOURCES.txt'
+[4.913s] writing manifest file '../../build/key_input/key_input.egg-info/SOURCES.txt'
+[4.914s] running build
+[4.914s] running build_py
+[4.915s] creating /home/eds-spiderbyte-01/ros2_motor/build/key_input/build
+[4.916s] creating /home/eds-spiderbyte-01/ros2_motor/build/key_input/build/lib
+[4.916s] creating /home/eds-spiderbyte-01/ros2_motor/build/key_input/build/lib/key_input
+[4.917s] copying key_input/__init__.py -> /home/eds-spiderbyte-01/ros2_motor/build/key_input/build/lib/key_input
+[4.917s] running install
+[4.917s] running install_lib
+[4.923s] creating /home/eds-spiderbyte-01/ros2_motor/install/key_input/lib/python3.10/site-packages/key_input
+[4.923s] copying /home/eds-spiderbyte-01/ros2_motor/build/key_input/build/lib/key_input/__init__.py -> /home/eds-spiderbyte-01/ros2_motor/install/key_input/lib/python3.10/site-packages/key_input
+[4.925s] byte-compiling /home/eds-spiderbyte-01/ros2_motor/install/key_input/lib/python3.10/site-packages/key_input/__init__.py to __init__.cpython-310.pyc
+[4.926s] running install_data
+[4.927s] creating /home/eds-spiderbyte-01/ros2_motor/install/key_input/share/ament_index
+[4.927s] creating /home/eds-spiderbyte-01/ros2_motor/install/key_input/share/ament_index/resource_index
+[4.928s] creating /home/eds-spiderbyte-01/ros2_motor/install/key_input/share/ament_index/resource_index/packages
+[4.929s] copying resource/key_input -> /home/eds-spiderbyte-01/ros2_motor/install/key_input/share/ament_index/resource_index/packages
+[4.930s] copying package.xml -> /home/eds-spiderbyte-01/ros2_motor/install/key_input/share/key_input
+[4.930s] running install_egg_info
+[4.936s] Copying ../../build/key_input/key_input.egg-info to /home/eds-spiderbyte-01/ros2_motor/install/key_input/lib/python3.10/site-packages/key_input-0.0.0-py3.10.egg-info
+[4.940s] running install_scripts
+[5.030s] writing list of installed files to '/home/eds-spiderbyte-01/ros2_motor/build/key_input/install.log'
+[5.122s] Invoked command in '/home/eds-spiderbyte-01/ros2_motor/src/key_input' returned '0': PYTHONPATH=/home/eds-spiderbyte-01/ros2_motor/build/key_input/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eds-spiderbyte-01/ros2_motor/install/key_input/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/key_input build --build-base /home/eds-spiderbyte-01/ros2_motor/build/key_input/build install --record /home/eds-spiderbyte-01/ros2_motor/build/key_input/install.log --single-version-externally-managed install_data

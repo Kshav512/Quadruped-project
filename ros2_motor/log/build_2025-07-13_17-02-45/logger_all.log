@@ -1,0 +1,327 @@
+[0.113s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.113s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7dbaaf25e620>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7dbaaf373a00>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7dbaaf373a00>>, mixin_verb=('build',))
+[0.284s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.284s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.284s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.284s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.284s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.284s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.285s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/eds-spiderbyte-01/ros2_motor'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/key_input) by extensions ['ignore', 'ignore_ament_install']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/key_input) by extension 'ignore'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/key_input) by extension 'ignore_ament_install'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/key_input) by extensions ['colcon_pkg']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/key_input) by extension 'colcon_pkg'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/key_input) by extensions ['colcon_meta']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/key_input) by extension 'colcon_meta'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/key_input) by extensions ['ros']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/key_input) by extension 'ros'
+[0.300s] DEBUG:colcon.colcon_core.package_identification:Package 'src/key_input' with type 'ros.ament_python' and name 'key_input'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/servo_control) by extensions ['ignore', 'ignore_ament_install']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/servo_control) by extension 'ignore'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/servo_control) by extension 'ignore_ament_install'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/servo_control) by extensions ['colcon_pkg']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/servo_control) by extension 'colcon_pkg'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/servo_control) by extensions ['colcon_meta']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/servo_control) by extension 'colcon_meta'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/servo_control) by extensions ['ros']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/servo_control) by extension 'ros'
+[0.301s] DEBUG:colcon.colcon_core.package_identification:Package 'src/servo_control' with type 'ros.ament_python' and name 'servo_control'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/single_leg) by extensions ['ignore', 'ignore_ament_install']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/single_leg) by extension 'ignore'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/single_leg) by extension 'ignore_ament_install'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/single_leg) by extensions ['colcon_pkg']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/single_leg) by extension 'colcon_pkg'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/single_leg) by extensions ['colcon_meta']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/single_leg) by extension 'colcon_meta'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/single_leg) by extensions ['ros']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/single_leg) by extension 'ros'
+[0.302s] DEBUG:colcon.colcon_core.package_identification:Package 'src/single_leg' with type 'ros.ament_python' and name 'single_leg'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_keys) by extensions ['ignore', 'ignore_ament_install']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_keys) by extension 'ignore'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_keys) by extension 'ignore_ament_install'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_keys) by extensions ['colcon_pkg']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_keys) by extension 'colcon_pkg'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_keys) by extensions ['colcon_meta']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_keys) by extension 'colcon_meta'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_keys) by extensions ['ros']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_keys) by extension 'ros'
+[0.303s] DEBUG:colcon.colcon_core.package_identification:Package 'src/two_keys' with type 'ros.ament_python' and name 'two_keys'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_motors) by extensions ['ignore', 'ignore_ament_install']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_motors) by extension 'ignore'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_motors) by extension 'ignore_ament_install'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_motors) by extensions ['colcon_pkg']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_motors) by extension 'colcon_pkg'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_motors) by extensions ['colcon_meta']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_motors) by extension 'colcon_meta'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_motors) by extensions ['ros']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_motors) by extension 'ros'
+[0.304s] DEBUG:colcon.colcon_core.package_identification:Package 'src/two_motors' with type 'ros.ament_python' and name 'two_motors'
+[0.304s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.304s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.304s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.304s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.304s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.337s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.337s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.339s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/eds-spiderbyte-01/ros2_motor/install
+[0.340s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 272 installed packages in /opt/ros/humble
+[0.342s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'key_input' build argument 'cmake_args' from command line to 'None'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'key_input' build argument 'cmake_target' from command line to 'None'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'key_input' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'key_input' build argument 'cmake_clean_cache' from command line to 'False'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'key_input' build argument 'cmake_clean_first' from command line to 'False'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'key_input' build argument 'cmake_force_configure' from command line to 'False'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'key_input' build argument 'ament_cmake_args' from command line to 'None'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'key_input' build argument 'catkin_cmake_args' from command line to 'None'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'key_input' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.381s] DEBUG:colcon.colcon_core.verb:Building package 'key_input' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/eds-spiderbyte-01/ros2_motor/build/key_input', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/eds-spiderbyte-01/ros2_motor/install/key_input', 'merge_install': False, 'path': '/home/eds-spiderbyte-01/ros2_motor/src/key_input', 'symlink_install': False, 'test_result_base': None}
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'servo_control' build argument 'cmake_args' from command line to 'None'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'servo_control' build argument 'cmake_target' from command line to 'None'
+[0.382s] Level 5:colcon.colcon_core.verb:set package 'servo_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.382s] Level 5:colcon.colcon_core.verb:set package 'servo_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.382s] Level 5:colcon.colcon_core.verb:set package 'servo_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.382s] Level 5:colcon.colcon_core.verb:set package 'servo_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.382s] Level 5:colcon.colcon_core.verb:set package 'servo_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.382s] Level 5:colcon.colcon_core.verb:set package 'servo_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.382s] Level 5:colcon.colcon_core.verb:set package 'servo_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.382s] DEBUG:colcon.colcon_core.verb:Building package 'servo_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/eds-spiderbyte-01/ros2_motor/build/servo_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/eds-spiderbyte-01/ros2_motor/install/servo_control', 'merge_install': False, 'path': '/home/eds-spiderbyte-01/ros2_motor/src/servo_control', 'symlink_install': False, 'test_result_base': None}
+[0.382s] Level 5:colcon.colcon_core.verb:set package 'single_leg' build argument 'cmake_args' from command line to 'None'
+[0.382s] Level 5:colcon.colcon_core.verb:set package 'single_leg' build argument 'cmake_target' from command line to 'None'
+[0.382s] Level 5:colcon.colcon_core.verb:set package 'single_leg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.382s] Level 5:colcon.colcon_core.verb:set package 'single_leg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.382s] Level 5:colcon.colcon_core.verb:set package 'single_leg' build argument 'cmake_clean_first' from command line to 'False'
+[0.382s] Level 5:colcon.colcon_core.verb:set package 'single_leg' build argument 'cmake_force_configure' from command line to 'False'
+[0.382s] Level 5:colcon.colcon_core.verb:set package 'single_leg' build argument 'ament_cmake_args' from command line to 'None'
+[0.382s] Level 5:colcon.colcon_core.verb:set package 'single_leg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.382s] Level 5:colcon.colcon_core.verb:set package 'single_leg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.382s] DEBUG:colcon.colcon_core.verb:Building package 'single_leg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/eds-spiderbyte-01/ros2_motor/build/single_leg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/eds-spiderbyte-01/ros2_motor/install/single_leg', 'merge_install': False, 'path': '/home/eds-spiderbyte-01/ros2_motor/src/single_leg', 'symlink_install': False, 'test_result_base': None}
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'two_keys' build argument 'cmake_args' from command line to 'None'
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'two_keys' build argument 'cmake_target' from command line to 'None'
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'two_keys' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'two_keys' build argument 'cmake_clean_cache' from command line to 'False'
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'two_keys' build argument 'cmake_clean_first' from command line to 'False'
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'two_keys' build argument 'cmake_force_configure' from command line to 'False'
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'two_keys' build argument 'ament_cmake_args' from command line to 'None'
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'two_keys' build argument 'catkin_cmake_args' from command line to 'None'
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'two_keys' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.383s] DEBUG:colcon.colcon_core.verb:Building package 'two_keys' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/eds-spiderbyte-01/ros2_motor/build/two_keys', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/eds-spiderbyte-01/ros2_motor/install/two_keys', 'merge_install': False, 'path': '/home/eds-spiderbyte-01/ros2_motor/src/two_keys', 'symlink_install': False, 'test_result_base': None}
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'two_motors' build argument 'cmake_args' from command line to 'None'
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'two_motors' build argument 'cmake_target' from command line to 'None'
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'two_motors' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'two_motors' build argument 'cmake_clean_cache' from command line to 'False'
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'two_motors' build argument 'cmake_clean_first' from command line to 'False'
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'two_motors' build argument 'cmake_force_configure' from command line to 'False'
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'two_motors' build argument 'ament_cmake_args' from command line to 'None'
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'two_motors' build argument 'catkin_cmake_args' from command line to 'None'
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'two_motors' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.383s] DEBUG:colcon.colcon_core.verb:Building package 'two_motors' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/eds-spiderbyte-01/ros2_motor/build/two_motors', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/eds-spiderbyte-01/ros2_motor/install/two_motors', 'merge_install': False, 'path': '/home/eds-spiderbyte-01/ros2_motor/src/two_motors', 'symlink_install': False, 'test_result_base': None}
+[0.384s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.384s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.385s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/eds-spiderbyte-01/ros2_motor/src/key_input' with build type 'ament_python'
+[0.385s] Level 1:colcon.colcon_core.shell:create_environment_hook('key_input', 'ament_prefix_path')
+[0.387s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.387s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eds-spiderbyte-01/ros2_motor/install/key_input/share/key_input/hook/ament_prefix_path.ps1'
+[0.388s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eds-spiderbyte-01/ros2_motor/install/key_input/share/key_input/hook/ament_prefix_path.dsv'
+[0.388s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eds-spiderbyte-01/ros2_motor/install/key_input/share/key_input/hook/ament_prefix_path.sh'
+[0.389s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.389s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.391s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/eds-spiderbyte-01/ros2_motor/src/servo_control' with build type 'ament_python'
+[0.392s] Level 1:colcon.colcon_core.shell:create_environment_hook('servo_control', 'ament_prefix_path')
+[0.392s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eds-spiderbyte-01/ros2_motor/install/servo_control/share/servo_control/hook/ament_prefix_path.ps1'
+[0.392s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eds-spiderbyte-01/ros2_motor/install/servo_control/share/servo_control/hook/ament_prefix_path.dsv'
+[0.392s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eds-spiderbyte-01/ros2_motor/install/servo_control/share/servo_control/hook/ament_prefix_path.sh'
+[0.393s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.393s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.396s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/eds-spiderbyte-01/ros2_motor/src/single_leg' with build type 'ament_python'
+[0.396s] Level 1:colcon.colcon_core.shell:create_environment_hook('single_leg', 'ament_prefix_path')
+[0.397s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eds-spiderbyte-01/ros2_motor/install/single_leg/share/single_leg/hook/ament_prefix_path.ps1'
+[0.398s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eds-spiderbyte-01/ros2_motor/install/single_leg/share/single_leg/hook/ament_prefix_path.dsv'
+[0.399s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eds-spiderbyte-01/ros2_motor/install/single_leg/share/single_leg/hook/ament_prefix_path.sh'
+[0.400s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.400s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.403s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/eds-spiderbyte-01/ros2_motor/src/two_keys' with build type 'ament_python'
+[0.403s] Level 1:colcon.colcon_core.shell:create_environment_hook('two_keys', 'ament_prefix_path')
+[0.403s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eds-spiderbyte-01/ros2_motor/install/two_keys/share/two_keys/hook/ament_prefix_path.ps1'
+[0.404s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eds-spiderbyte-01/ros2_motor/install/two_keys/share/two_keys/hook/ament_prefix_path.dsv'
+[0.404s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eds-spiderbyte-01/ros2_motor/install/two_keys/share/two_keys/hook/ament_prefix_path.sh'
+[0.405s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.405s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.408s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/eds-spiderbyte-01/ros2_motor/src/two_motors' with build type 'ament_python'
+[0.408s] Level 1:colcon.colcon_core.shell:create_environment_hook('two_motors', 'ament_prefix_path')
+[0.408s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eds-spiderbyte-01/ros2_motor/install/two_motors/share/two_motors/hook/ament_prefix_path.ps1'
+[0.409s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eds-spiderbyte-01/ros2_motor/install/two_motors/share/two_motors/hook/ament_prefix_path.dsv'
+[0.409s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eds-spiderbyte-01/ros2_motor/install/two_motors/share/two_motors/hook/ament_prefix_path.sh'
+[0.410s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.410s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.697s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/eds-spiderbyte-01/ros2_motor/src/key_input'
+[0.698s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.698s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.970s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/eds-spiderbyte-01/ros2_motor/src/servo_control'
+[0.971s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.971s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.244s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/eds-spiderbyte-01/ros2_motor/src/single_leg'
+[1.245s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.245s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.526s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/eds-spiderbyte-01/ros2_motor/src/two_keys'
+[1.527s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.527s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.801s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/eds-spiderbyte-01/ros2_motor/src/two_motors'
+[1.801s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.801s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.304s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eds-spiderbyte-01/ros2_motor/src/two_motors': PYTHONPATH=/home/eds-spiderbyte-01/ros2_motor/build/two_motors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eds-spiderbyte-01/ros2_motor/install/two_motors/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/two_motors build --build-base /home/eds-spiderbyte-01/ros2_motor/build/two_motors/build install --record /home/eds-spiderbyte-01/ros2_motor/build/two_motors/install.log --single-version-externally-managed install_data
+[2.322s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eds-spiderbyte-01/ros2_motor/src/key_input': PYTHONPATH=/home/eds-spiderbyte-01/ros2_motor/build/key_input/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eds-spiderbyte-01/ros2_motor/install/key_input/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/key_input build --build-base /home/eds-spiderbyte-01/ros2_motor/build/key_input/build install --record /home/eds-spiderbyte-01/ros2_motor/build/key_input/install.log --single-version-externally-managed install_data
+[2.337s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eds-spiderbyte-01/ros2_motor/src/single_leg': PYTHONPATH=/home/eds-spiderbyte-01/ros2_motor/build/single_leg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eds-spiderbyte-01/ros2_motor/install/single_leg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/single_leg build --build-base /home/eds-spiderbyte-01/ros2_motor/build/single_leg/build install --record /home/eds-spiderbyte-01/ros2_motor/build/single_leg/install.log --single-version-externally-managed install_data
+[2.569s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eds-spiderbyte-01/ros2_motor/src/servo_control': PYTHONPATH=/home/eds-spiderbyte-01/ros2_motor/build/servo_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eds-spiderbyte-01/ros2_motor/install/servo_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/servo_control build --build-base /home/eds-spiderbyte-01/ros2_motor/build/servo_control/build install --record /home/eds-spiderbyte-01/ros2_motor/build/servo_control/install.log --single-version-externally-managed install_data
+[2.597s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eds-spiderbyte-01/ros2_motor/src/two_keys': PYTHONPATH=/home/eds-spiderbyte-01/ros2_motor/build/two_keys/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eds-spiderbyte-01/ros2_motor/install/two_keys/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/two_keys build --build-base /home/eds-spiderbyte-01/ros2_motor/build/two_keys/build install --record /home/eds-spiderbyte-01/ros2_motor/build/two_keys/install.log --single-version-externally-managed install_data
+[2.742s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eds-spiderbyte-01/ros2_motor/src/two_motors' returned '0': PYTHONPATH=/home/eds-spiderbyte-01/ros2_motor/build/two_motors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eds-spiderbyte-01/ros2_motor/install/two_motors/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/two_motors build --build-base /home/eds-spiderbyte-01/ros2_motor/build/two_motors/build install --record /home/eds-spiderbyte-01/ros2_motor/build/two_motors/install.log --single-version-externally-managed install_data
+[2.747s] Level 1:colcon.colcon_core.environment:checking '/home/eds-spiderbyte-01/ros2_motor/install/two_motors' for CMake module files
+[2.748s] Level 1:colcon.colcon_core.environment:checking '/home/eds-spiderbyte-01/ros2_motor/install/two_motors' for CMake config files
+[2.750s] Level 1:colcon.colcon_core.environment:checking '/home/eds-spiderbyte-01/ros2_motor/install/two_motors/lib'
+[2.750s] Level 1:colcon.colcon_core.environment:checking '/home/eds-spiderbyte-01/ros2_motor/install/two_motors/bin'
+[2.750s] Level 1:colcon.colcon_core.environment:checking '/home/eds-spiderbyte-01/ros2_motor/install/two_motors/lib/pkgconfig/two_motors.pc'
+[2.751s] Level 1:colcon.colcon_core.environment:checking '/home/eds-spiderbyte-01/ros2_motor/install/two_motors/lib/python3.10/site-packages'
+[2.751s] Level 1:colcon.colcon_core.shell:create_environment_hook('two_motors', 'pythonpath')
+[2.751s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eds-spiderbyte-01/ros2_motor/install/two_motors/share/two_motors/hook/pythonpath.ps1'
+[2.752s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eds-spiderbyte-01/ros2_motor/install/two_motors/share/two_motors/hook/pythonpath.dsv'
+[2.753s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eds-spiderbyte-01/ros2_motor/install/two_motors/share/two_motors/hook/pythonpath.sh'
+[2.754s] Level 1:colcon.colcon_core.environment:checking '/home/eds-spiderbyte-01/ros2_motor/install/two_motors/bin'
+[2.754s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(two_motors)
+[2.755s] INFO:colcon.colcon_core.shell:Creating package script '/home/eds-spiderbyte-01/ros2_motor/install/two_motors/share/two_motors/package.ps1'
+[2.757s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/eds-spiderbyte-01/ros2_motor/install/two_motors/share/two_motors/package.dsv'
+[2.759s] INFO:colcon.colcon_core.shell:Creating package script '/home/eds-spiderbyte-01/ros2_motor/install/two_motors/share/two_motors/package.sh'
+[2.760s] INFO:colcon.colcon_core.shell:Creating package script '/home/eds-spiderbyte-01/ros2_motor/install/two_motors/share/two_motors/package.bash'
+[2.762s] INFO:colcon.colcon_core.shell:Creating package script '/home/eds-spiderbyte-01/ros2_motor/install/two_motors/share/two_motors/package.zsh'
+[2.764s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/eds-spiderbyte-01/ros2_motor/install/two_motors/share/colcon-core/packages/two_motors)
+[2.772s] Level 1:colcon.colcon_core.environment:checking '/home/eds-spiderbyte-01/ros2_motor/install/key_input' for CMake module files
+[2.773s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eds-spiderbyte-01/ros2_motor/src/key_input' returned '0': PYTHONPATH=/home/eds-spiderbyte-01/ros2_motor/build/key_input/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eds-spiderbyte-01/ros2_motor/install/key_input/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/key_input build --build-base /home/eds-spiderbyte-01/ros2_motor/build/key_input/build install --record /home/eds-spiderbyte-01/ros2_motor/build/key_input/install.log --single-version-externally-managed install_data
+[2.774s] Level 1:colcon.colcon_core.environment:checking '/home/eds-spiderbyte-01/ros2_motor/install/key_input' for CMake config files
+[2.775s] Level 1:colcon.colcon_core.environment:checking '/home/eds-spiderbyte-01/ros2_motor/install/key_input/lib'
+[2.775s] Level 1:colcon.colcon_core.environment:checking '/home/eds-spiderbyte-01/ros2_motor/install/key_input/bin'
+[2.775s] Level 1:colcon.colcon_core.environment:checking '/home/eds-spiderbyte-01/ros2_motor/install/key_input/lib/pkgconfig/key_input.pc'
+[2.776s] Level 1:colcon.colcon_core.environment:checking '/home/eds-spiderbyte-01/ros2_motor/install/key_input/lib/python3.10/site-packages'
+[2.776s] Level 1:colcon.colcon_core.shell:create_environment_hook('key_input', 'pythonpath')
+[2.776s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eds-spiderbyte-01/ros2_motor/install/key_input/share/key_input/hook/pythonpath.ps1'
+[2.777s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eds-spiderbyte-01/ros2_motor/install/key_input/share/key_input/hook/pythonpath.dsv'
+[2.778s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eds-spiderbyte-01/ros2_motor/install/key_input/share/key_input/hook/pythonpath.sh'
+[2.779s] Level 1:colcon.colcon_core.environment:checking '/home/eds-spiderbyte-01/ros2_motor/install/key_input/bin'
+[2.779s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(key_input)
+[2.780s] INFO:colcon.colcon_core.shell:Creating package script '/home/eds-spiderbyte-01/ros2_motor/install/key_input/share/key_input/package.ps1'
+[2.781s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/eds-spiderbyte-01/ros2_motor/install/key_input/share/key_input/package.dsv'
+[2.781s] INFO:colcon.colcon_core.shell:Creating package script '/home/eds-spiderbyte-01/ros2_motor/install/key_input/share/key_input/package.sh'
+[2.782s] INFO:colcon.colcon_core.shell:Creating package script '/home/eds-spiderbyte-01/ros2_motor/install/key_input/share/key_input/package.bash'
+[2.782s] INFO:colcon.colcon_core.shell:Creating package script '/home/eds-spiderbyte-01/ros2_motor/install/key_input/share/key_input/package.zsh'
+[2.782s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/eds-spiderbyte-01/ros2_motor/install/key_input/share/colcon-core/packages/key_input)
+[2.784s] Level 1:colcon.colcon_core.environment:checking '/home/eds-spiderbyte-01/ros2_motor/install/single_leg' for CMake module files
+[2.785s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eds-spiderbyte-01/ros2_motor/src/single_leg' returned '0': PYTHONPATH=/home/eds-spiderbyte-01/ros2_motor/build/single_leg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eds-spiderbyte-01/ros2_motor/install/single_leg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/single_leg build --build-base /home/eds-spiderbyte-01/ros2_motor/build/single_leg/build install --record /home/eds-spiderbyte-01/ros2_motor/build/single_leg/install.log --single-version-externally-managed install_data
+[2.785s] Level 1:colcon.colcon_core.environment:checking '/home/eds-spiderbyte-01/ros2_motor/install/single_leg' for CMake config files
+[2.786s] Level 1:colcon.colcon_core.environment:checking '/home/eds-spiderbyte-01/ros2_motor/install/single_leg/lib'
+[2.786s] Level 1:colcon.colcon_core.environment:checking '/home/eds-spiderbyte-01/ros2_motor/install/single_leg/bin'
+[2.786s] Level 1:colcon.colcon_core.environment:checking '/home/eds-spiderbyte-01/ros2_motor/install/single_leg/lib/pkgconfig/single_leg.pc'
+[2.786s] Level 1:colcon.colcon_core.environment:checking '/home/eds-spiderbyte-01/ros2_motor/install/single_leg/lib/python3.10/site-packages'
+[2.786s] Level 1:colcon.colcon_core.shell:create_environment_hook('single_leg', 'pythonpath')
+[2.786s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eds-spiderbyte-01/ros2_motor/install/single_leg/share/single_leg/hook/pythonpath.ps1'
+[2.787s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eds-spiderbyte-01/ros2_motor/install/single_leg/share/single_leg/hook/pythonpath.dsv'
+[2.787s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eds-spiderbyte-01/ros2_motor/install/single_leg/share/single_leg/hook/pythonpath.sh'
+[2.788s] Level 1:colcon.colcon_core.environment:checking '/home/eds-spiderbyte-01/ros2_motor/install/single_leg/bin'
+[2.788s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(single_leg)
+[2.788s] INFO:colcon.colcon_core.shell:Creating package script '/home/eds-spiderbyte-01/ros2_motor/install/single_leg/share/single_leg/package.ps1'
+[2.789s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/eds-spiderbyte-01/ros2_motor/install/single_leg/share/single_leg/package.dsv'
+[2.789s] INFO:colcon.colcon_core.shell:Creating package script '/home/eds-spiderbyte-01/ros2_motor/install/single_leg/share/single_leg/package.sh'
+[2.790s] INFO:colcon.colcon_core.shell:Creating package script '/home/eds-spiderbyte-01/ros2_motor/install/single_leg/share/single_leg/package.bash'
+[2.790s] INFO:colcon.colcon_core.shell:Creating package script '/home/eds-spiderbyte-01/ros2_motor/install/single_leg/share/single_leg/package.zsh'
+[2.791s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/eds-spiderbyte-01/ros2_motor/install/single_leg/share/colcon-core/packages/single_leg)
+[3.027s] Level 1:colcon.colcon_core.environment:checking '/home/eds-spiderbyte-01/ros2_motor/install/servo_control' for CMake module files
+[3.029s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eds-spiderbyte-01/ros2_motor/src/servo_control' returned '0': PYTHONPATH=/home/eds-spiderbyte-01/ros2_motor/build/servo_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eds-spiderbyte-01/ros2_motor/install/servo_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/servo_control build --build-base /home/eds-spiderbyte-01/ros2_motor/build/servo_control/build install --record /home/eds-spiderbyte-01/ros2_motor/build/servo_control/install.log --single-version-externally-managed install_data
+[3.029s] Level 1:colcon.colcon_core.environment:checking '/home/eds-spiderbyte-01/ros2_motor/install/servo_control' for CMake config files
+[3.030s] Level 1:colcon.colcon_core.environment:checking '/home/eds-spiderbyte-01/ros2_motor/install/servo_control/lib'
+[3.030s] Level 1:colcon.colcon_core.environment:checking '/home/eds-spiderbyte-01/ros2_motor/install/servo_control/bin'
+[3.030s] Level 1:colcon.colcon_core.environment:checking '/home/eds-spiderbyte-01/ros2_motor/install/servo_control/lib/pkgconfig/servo_control.pc'
+[3.031s] Level 1:colcon.colcon_core.environment:checking '/home/eds-spiderbyte-01/ros2_motor/install/servo_control/lib/python3.10/site-packages'
+[3.031s] Level 1:colcon.colcon_core.shell:create_environment_hook('servo_control', 'pythonpath')
+[3.031s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eds-spiderbyte-01/ros2_motor/install/servo_control/share/servo_control/hook/pythonpath.ps1'
+[3.032s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eds-spiderbyte-01/ros2_motor/install/servo_control/share/servo_control/hook/pythonpath.dsv'
+[3.032s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eds-spiderbyte-01/ros2_motor/install/servo_control/share/servo_control/hook/pythonpath.sh'
+[3.033s] Level 1:colcon.colcon_core.environment:checking '/home/eds-spiderbyte-01/ros2_motor/install/servo_control/bin'
+[3.033s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(servo_control)
+[3.033s] INFO:colcon.colcon_core.shell:Creating package script '/home/eds-spiderbyte-01/ros2_motor/install/servo_control/share/servo_control/package.ps1'
+[3.034s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/eds-spiderbyte-01/ros2_motor/install/servo_control/share/servo_control/package.dsv'
+[3.035s] INFO:colcon.colcon_core.shell:Creating package script '/home/eds-spiderbyte-01/ros2_motor/install/servo_control/share/servo_control/package.sh'
+[3.035s] INFO:colcon.colcon_core.shell:Creating package script '/home/eds-spiderbyte-01/ros2_motor/install/servo_control/share/servo_control/package.bash'
+[3.036s] INFO:colcon.colcon_core.shell:Creating package script '/home/eds-spiderbyte-01/ros2_motor/install/servo_control/share/servo_control/package.zsh'
+[3.036s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/eds-spiderbyte-01/ros2_motor/install/servo_control/share/colcon-core/packages/servo_control)
+[3.039s] Level 1:colcon.colcon_core.environment:checking '/home/eds-spiderbyte-01/ros2_motor/install/two_keys' for CMake module files
+[3.040s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eds-spiderbyte-01/ros2_motor/src/two_keys' returned '0': PYTHONPATH=/home/eds-spiderbyte-01/ros2_motor/build/two_keys/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eds-spiderbyte-01/ros2_motor/install/two_keys/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/two_keys build --build-base /home/eds-spiderbyte-01/ros2_motor/build/two_keys/build install --record /home/eds-spiderbyte-01/ros2_motor/build/two_keys/install.log --single-version-externally-managed install_data
+[3.041s] Level 1:colcon.colcon_core.environment:checking '/home/eds-spiderbyte-01/ros2_motor/install/two_keys' for CMake config files
+[3.041s] Level 1:colcon.colcon_core.environment:checking '/home/eds-spiderbyte-01/ros2_motor/install/two_keys/lib'
+[3.042s] Level 1:colcon.colcon_core.environment:checking '/home/eds-spiderbyte-01/ros2_motor/install/two_keys/bin'
+[3.042s] Level 1:colcon.colcon_core.environment:checking '/home/eds-spiderbyte-01/ros2_motor/install/two_keys/lib/pkgconfig/two_keys.pc'
+[3.042s] Level 1:colcon.colcon_core.environment:checking '/home/eds-spiderbyte-01/ros2_motor/install/two_keys/lib/python3.10/site-packages'
+[3.042s] Level 1:colcon.colcon_core.shell:create_environment_hook('two_keys', 'pythonpath')
+[3.043s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eds-spiderbyte-01/ros2_motor/install/two_keys/share/two_keys/hook/pythonpath.ps1'
+[3.043s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eds-spiderbyte-01/ros2_motor/install/two_keys/share/two_keys/hook/pythonpath.dsv'
+[3.044s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eds-spiderbyte-01/ros2_motor/install/two_keys/share/two_keys/hook/pythonpath.sh'
+[3.045s] Level 1:colcon.colcon_core.environment:checking '/home/eds-spiderbyte-01/ros2_motor/install/two_keys/bin'
+[3.045s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(two_keys)
+[3.046s] INFO:colcon.colcon_core.shell:Creating package script '/home/eds-spiderbyte-01/ros2_motor/install/two_keys/share/two_keys/package.ps1'
+[3.046s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/eds-spiderbyte-01/ros2_motor/install/two_keys/share/two_keys/package.dsv'
+[3.047s] INFO:colcon.colcon_core.shell:Creating package script '/home/eds-spiderbyte-01/ros2_motor/install/two_keys/share/two_keys/package.sh'
+[3.047s] INFO:colcon.colcon_core.shell:Creating package script '/home/eds-spiderbyte-01/ros2_motor/install/two_keys/share/two_keys/package.bash'
+[3.048s] INFO:colcon.colcon_core.shell:Creating package script '/home/eds-spiderbyte-01/ros2_motor/install/two_keys/share/two_keys/package.zsh'
+[3.048s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/eds-spiderbyte-01/ros2_motor/install/two_keys/share/colcon-core/packages/two_keys)
+[3.048s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.049s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.049s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.049s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.056s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.056s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.056s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.069s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.070s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/eds-spiderbyte-01/ros2_motor/install/local_setup.ps1'
+[3.071s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/eds-spiderbyte-01/ros2_motor/install/_local_setup_util_ps1.py'
+[3.073s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/eds-spiderbyte-01/ros2_motor/install/setup.ps1'
+[3.074s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/eds-spiderbyte-01/ros2_motor/install/local_setup.sh'
+[3.075s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/eds-spiderbyte-01/ros2_motor/install/_local_setup_util_sh.py'
+[3.076s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/eds-spiderbyte-01/ros2_motor/install/setup.sh'
+[3.079s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/eds-spiderbyte-01/ros2_motor/install/local_setup.bash'
+[3.080s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/eds-spiderbyte-01/ros2_motor/install/setup.bash'
+[3.083s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/eds-spiderbyte-01/ros2_motor/install/local_setup.zsh'
+[3.083s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/eds-spiderbyte-01/ros2_motor/install/setup.zsh'

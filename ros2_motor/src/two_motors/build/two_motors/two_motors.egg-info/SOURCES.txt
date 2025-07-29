@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+build/two_motors/two_motors.egg-info/PKG-INFO
+build/two_motors/two_motors.egg-info/SOURCES.txt
+build/two_motors/two_motors.egg-info/dependency_links.txt
+build/two_motors/two_motors.egg-info/entry_points.txt
+build/two_motors/two_motors.egg-info/requires.txt
+build/two_motors/two_motors.egg-info/top_level.txt
+build/two_motors/two_motors.egg-info/zip-safe
+resource/two_motors
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
+two_motors/__init__.py
+two_motors/leg_pub.py
+two_motors/leg_sub.py

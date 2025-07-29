@@ -1,0 +1,6 @@
+[console_scripts]
+XY_plane = single_leg.XY_plane:main
+common_sub = single_leg.common_sub:main
+equa = single_leg.equa:main
+point_to_point = single_leg.point_to_point:main
+

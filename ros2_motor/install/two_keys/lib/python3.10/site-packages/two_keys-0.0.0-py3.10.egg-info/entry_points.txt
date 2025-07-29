@@ -1,0 +1,4 @@
+[console_scripts]
+control_pub = two_keys.control_pub:main
+control_sub = two_keys.control_sub:main
+

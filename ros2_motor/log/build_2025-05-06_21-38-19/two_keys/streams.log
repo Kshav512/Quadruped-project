@@ -1,0 +1,33 @@
+[1.182s] Invoking command in '/home/eds-spiderbyte-01/ros2_motor/src/two_keys': PYTHONPATH=/home/eds-spiderbyte-01/ros2_motor/build/two_keys/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eds-spiderbyte-01/ros2_motor/install/two_keys/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/two_keys build --build-base /home/eds-spiderbyte-01/ros2_motor/build/two_keys/build install --record /home/eds-spiderbyte-01/ros2_motor/build/two_keys/install.log --single-version-externally-managed install_data
+[1.456s] running egg_info
+[1.456s] creating ../../build/two_keys/two_keys.egg-info
+[1.457s] writing ../../build/two_keys/two_keys.egg-info/PKG-INFO
+[1.457s] writing dependency_links to ../../build/two_keys/two_keys.egg-info/dependency_links.txt
+[1.457s] writing entry points to ../../build/two_keys/two_keys.egg-info/entry_points.txt
+[1.458s] writing requirements to ../../build/two_keys/two_keys.egg-info/requires.txt
+[1.458s] writing top-level names to ../../build/two_keys/two_keys.egg-info/top_level.txt
+[1.458s] writing manifest file '../../build/two_keys/two_keys.egg-info/SOURCES.txt'
+[1.460s] reading manifest file '../../build/two_keys/two_keys.egg-info/SOURCES.txt'
+[1.461s] writing manifest file '../../build/two_keys/two_keys.egg-info/SOURCES.txt'
+[1.461s] running build
+[1.461s] running build_py
+[1.462s] creating /home/eds-spiderbyte-01/ros2_motor/build/two_keys/build
+[1.462s] creating /home/eds-spiderbyte-01/ros2_motor/build/two_keys/build/lib
+[1.462s] creating /home/eds-spiderbyte-01/ros2_motor/build/two_keys/build/lib/two_keys
+[1.462s] copying two_keys/__init__.py -> /home/eds-spiderbyte-01/ros2_motor/build/two_keys/build/lib/two_keys
+[1.462s] running install
+[1.462s] running install_lib
+[1.465s] creating /home/eds-spiderbyte-01/ros2_motor/install/two_keys/lib/python3.10/site-packages/two_keys
+[1.465s] copying /home/eds-spiderbyte-01/ros2_motor/build/two_keys/build/lib/two_keys/__init__.py -> /home/eds-spiderbyte-01/ros2_motor/install/two_keys/lib/python3.10/site-packages/two_keys
+[1.465s] byte-compiling /home/eds-spiderbyte-01/ros2_motor/install/two_keys/lib/python3.10/site-packages/two_keys/__init__.py to __init__.cpython-310.pyc
+[1.466s] running install_data
+[1.466s] creating /home/eds-spiderbyte-01/ros2_motor/install/two_keys/share/ament_index
+[1.466s] creating /home/eds-spiderbyte-01/ros2_motor/install/two_keys/share/ament_index/resource_index
+[1.466s] creating /home/eds-spiderbyte-01/ros2_motor/install/two_keys/share/ament_index/resource_index/packages
+[1.466s] copying resource/two_keys -> /home/eds-spiderbyte-01/ros2_motor/install/two_keys/share/ament_index/resource_index/packages
+[1.467s] copying package.xml -> /home/eds-spiderbyte-01/ros2_motor/install/two_keys/share/two_keys
+[1.467s] running install_egg_info
+[1.469s] Copying ../../build/two_keys/two_keys.egg-info to /home/eds-spiderbyte-01/ros2_motor/install/two_keys/lib/python3.10/site-packages/two_keys-0.0.0-py3.10.egg-info
+[1.470s] running install_scripts
+[1.492s] writing list of installed files to '/home/eds-spiderbyte-01/ros2_motor/build/two_keys/install.log'
+[1.552s] Invoked command in '/home/eds-spiderbyte-01/ros2_motor/src/two_keys' returned '0': PYTHONPATH=/home/eds-spiderbyte-01/ros2_motor/build/two_keys/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eds-spiderbyte-01/ros2_motor/install/two_keys/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/two_keys build --build-base /home/eds-spiderbyte-01/ros2_motor/build/two_keys/build install --record /home/eds-spiderbyte-01/ros2_motor/build/two_keys/install.log --single-version-externally-managed install_data

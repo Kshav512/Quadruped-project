@@ -1,0 +1,25 @@
+[1.455s] Invoking command in '/home/eds-spiderbyte-01/ros2_motor/src/two_motors': PYTHONPATH=/home/eds-spiderbyte-01/ros2_motor/build/two_motors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eds-spiderbyte-01/ros2_motor/install/two_motors/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/two_motors build --build-base /home/eds-spiderbyte-01/ros2_motor/build/two_motors/build install --record /home/eds-spiderbyte-01/ros2_motor/build/two_motors/install.log --single-version-externally-managed install_data
+[1.755s] running egg_info
+[1.756s] writing ../../build/two_motors/two_motors.egg-info/PKG-INFO
+[1.756s] writing dependency_links to ../../build/two_motors/two_motors.egg-info/dependency_links.txt
+[1.756s] writing entry points to ../../build/two_motors/two_motors.egg-info/entry_points.txt
+[1.756s] writing requirements to ../../build/two_motors/two_motors.egg-info/requires.txt
+[1.756s] writing top-level names to ../../build/two_motors/two_motors.egg-info/top_level.txt
+[1.758s] reading manifest file '../../build/two_motors/two_motors.egg-info/SOURCES.txt'
+[1.759s] writing manifest file '../../build/two_motors/two_motors.egg-info/SOURCES.txt'
+[1.759s] running build
+[1.760s] running build_py
+[1.760s] copying two_motors/leg_pub.py -> /home/eds-spiderbyte-01/ros2_motor/build/two_motors/build/lib/two_motors
+[1.760s] running install
+[1.760s] running install_lib
+[1.762s] copying /home/eds-spiderbyte-01/ros2_motor/build/two_motors/build/lib/two_motors/leg_pub.py -> /home/eds-spiderbyte-01/ros2_motor/install/two_motors/lib/python3.10/site-packages/two_motors
+[1.762s] byte-compiling /home/eds-spiderbyte-01/ros2_motor/install/two_motors/lib/python3.10/site-packages/two_motors/leg_pub.py to leg_pub.cpython-310.pyc
+[1.763s] running install_data
+[1.764s] running install_egg_info
+[1.766s] removing '/home/eds-spiderbyte-01/ros2_motor/install/two_motors/lib/python3.10/site-packages/two_motors-0.0.0-py3.10.egg-info' (and everything under it)
+[1.766s] Copying ../../build/two_motors/two_motors.egg-info to /home/eds-spiderbyte-01/ros2_motor/install/two_motors/lib/python3.10/site-packages/two_motors-0.0.0-py3.10.egg-info
+[1.767s] running install_scripts
+[1.792s] Installing leg_pub script to /home/eds-spiderbyte-01/ros2_motor/install/two_motors/lib/two_motors
+[1.792s] Installing leg_sub script to /home/eds-spiderbyte-01/ros2_motor/install/two_motors/lib/two_motors
+[1.793s] writing list of installed files to '/home/eds-spiderbyte-01/ros2_motor/build/two_motors/install.log'
+[1.855s] Invoked command in '/home/eds-spiderbyte-01/ros2_motor/src/two_motors' returned '0': PYTHONPATH=/home/eds-spiderbyte-01/ros2_motor/build/two_motors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eds-spiderbyte-01/ros2_motor/install/two_motors/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/two_motors build --build-base /home/eds-spiderbyte-01/ros2_motor/build/two_motors/build install --record /home/eds-spiderbyte-01/ros2_motor/build/two_motors/install.log --single-version-externally-managed install_data

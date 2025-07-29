@@ -1,0 +1,81 @@
+[0.000000] (-) TimerEvent: {}
+[0.001243] (servo_control) JobQueued: {'identifier': 'servo_control', 'dependencies': OrderedDict()}
+[0.002547] (servo_control) JobStarted: {'identifier': 'servo_control'}
+[0.098532] (-) TimerEvent: {}
+[0.199160] (-) TimerEvent: {}
+[0.299876] (-) TimerEvent: {}
+[0.400747] (-) TimerEvent: {}
+[0.501452] (-) TimerEvent: {}
+[0.602149] (-) TimerEvent: {}
+[0.703033] (-) TimerEvent: {}
+[0.803631] (-) TimerEvent: {}
+[0.904307] (-) TimerEvent: {}
+[1.005050] (-) TimerEvent: {}
+[1.105788] (-) TimerEvent: {}
+[1.206487] (-) TimerEvent: {}
+[1.307325] (-) TimerEvent: {}
+[1.408013] (-) TimerEvent: {}
+[1.508669] (-) TimerEvent: {}
+[1.609432] (-) TimerEvent: {}
+[1.710235] (-) TimerEvent: {}
+[1.811141] (-) TimerEvent: {}
+[1.911785] (-) TimerEvent: {}
+[2.012469] (-) TimerEvent: {}
+[2.113234] (-) TimerEvent: {}
+[2.214150] (-) TimerEvent: {}
+[2.315022] (-) TimerEvent: {}
+[2.415858] (-) TimerEvent: {}
+[2.516690] (-) TimerEvent: {}
+[2.617543] (-) TimerEvent: {}
+[2.718360] (-) TimerEvent: {}
+[2.819143] (-) TimerEvent: {}
+[2.919842] (-) TimerEvent: {}
+[3.020724] (-) TimerEvent: {}
+[3.121506] (-) TimerEvent: {}
+[3.222330] (-) TimerEvent: {}
+[3.323203] (-) TimerEvent: {}
+[3.337155] (servo_control) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/servo_control', 'build', '--build-base', '/home/eds-spiderbyte-01/ros2_motor/build/servo_control/build', 'install', '--record', '/home/eds-spiderbyte-01/ros2_motor/build/servo_control/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/eds-spiderbyte-01/ros2_motor/src/servo_control', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'eds-spiderbyte-01', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/eds-spiderbyte-01', 'OLDPWD': '/home/eds-spiderbyte-01', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1459', 'SYSTEMD_EXEC_PID': '1616', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '2638', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/eds-spiderbyte-01/ros2_motor/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'eds-spiderbyte-01', 'JOURNAL_STREAM': '8:13540', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'eds-spiderbyte-01', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/edsspiderbyte01-ThinkPad-T480s:@/tmp/.ICE-unix/1591,unix/edsspiderbyte01-ThinkPad-T480s:/tmp/.ICE-unix/1591', 'INVOCATION_ID': 'cac4c7984c5940e9bb815012000ea580', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.G90Y42', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/eds-spiderbyte-01/ros2_motor/install/servo_control:/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:fb490fc2-f399-4c53-83c6-d614cadb8a4c', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/eds-spiderbyte-01/ros2_motor/build/servo_control', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/eds-spiderbyte-01/ros2_motor/build/servo_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eds-spiderbyte-01/ros2_motor/install/servo_control/lib/python3.10/site-packages:/home/eds-spiderbyte-01/ros2_motor/install/servo_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[3.423406] (-) TimerEvent: {}
+[3.524257] (-) TimerEvent: {}
+[3.625111] (-) TimerEvent: {}
+[3.725899] (-) TimerEvent: {}
+[3.826537] (-) TimerEvent: {}
+[3.927603] (-) TimerEvent: {}
+[4.028407] (-) TimerEvent: {}
+[4.129274] (-) TimerEvent: {}
+[4.230164] (-) TimerEvent: {}
+[4.331026] (-) TimerEvent: {}
+[4.431711] (-) TimerEvent: {}
+[4.532641] (-) TimerEvent: {}
+[4.633523] (-) TimerEvent: {}
+[4.734234] (-) TimerEvent: {}
+[4.836728] (-) TimerEvent: {}
+[4.880539] (servo_control) StdoutLine: {'line': b'running egg_info\n'}
+[4.883818] (servo_control) StdoutLine: {'line': b'writing ../../build/servo_control/servo_control.egg-info/PKG-INFO\n'}
+[4.885211] (servo_control) StdoutLine: {'line': b'writing dependency_links to ../../build/servo_control/servo_control.egg-info/dependency_links.txt\n'}
+[4.886225] (servo_control) StdoutLine: {'line': b'writing entry points to ../../build/servo_control/servo_control.egg-info/entry_points.txt\n'}
+[4.887092] (servo_control) StdoutLine: {'line': b'writing requirements to ../../build/servo_control/servo_control.egg-info/requires.txt\n'}
+[4.887984] (servo_control) StdoutLine: {'line': b'writing top-level names to ../../build/servo_control/servo_control.egg-info/top_level.txt\n'}
+[4.895663] (servo_control) StdoutLine: {'line': b"reading manifest file '../../build/servo_control/servo_control.egg-info/SOURCES.txt'\n"}
+[4.900707] (servo_control) StdoutLine: {'line': b"writing manifest file '../../build/servo_control/servo_control.egg-info/SOURCES.txt'\n"}
+[4.901827] (servo_control) StdoutLine: {'line': b'running build\n'}
+[4.902453] (servo_control) StdoutLine: {'line': b'running build_py\n'}
+[4.903762] (servo_control) StdoutLine: {'line': b'copying servo_control/servo_subscriber.py -> /home/eds-spiderbyte-01/ros2_motor/build/servo_control/build/lib/servo_control\n'}
+[4.905364] (servo_control) StdoutLine: {'line': b'running install\n'}
+[4.906971] (servo_control) StdoutLine: {'line': b'running install_lib\n'}
+[4.911216] (servo_control) StdoutLine: {'line': b'copying /home/eds-spiderbyte-01/ros2_motor/build/servo_control/build/lib/servo_control/servo_subscriber.py -> /home/eds-spiderbyte-01/ros2_motor/install/servo_control/lib/python3.10/site-packages/servo_control\n'}
+[4.914333] (servo_control) StdoutLine: {'line': b'byte-compiling /home/eds-spiderbyte-01/ros2_motor/install/servo_control/lib/python3.10/site-packages/servo_control/servo_subscriber.py to servo_subscriber.cpython-310.pyc\n'}
+[4.917134] (servo_control) StdoutLine: {'line': b'running install_data\n'}
+[4.918183] (servo_control) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.926710] (servo_control) StdoutLine: {'line': b"removing '/home/eds-spiderbyte-01/ros2_motor/install/servo_control/lib/python3.10/site-packages/servo_control-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[4.928274] (servo_control) StdoutLine: {'line': b'Copying ../../build/servo_control/servo_control.egg-info to /home/eds-spiderbyte-01/ros2_motor/install/servo_control/lib/python3.10/site-packages/servo_control-0.0.0-py3.10.egg-info\n'}
+[4.933165] (servo_control) StdoutLine: {'line': b'running install_scripts\n'}
+[4.936907] (-) TimerEvent: {}
+[5.035553] (servo_control) StdoutLine: {'line': b'Installing servo_publisher script to /home/eds-spiderbyte-01/ros2_motor/install/servo_control/lib/servo_control\n'}
+[5.037064] (-) TimerEvent: {}
+[5.037942] (servo_control) StdoutLine: {'line': b'Installing servo_subscriber script to /home/eds-spiderbyte-01/ros2_motor/install/servo_control/lib/servo_control\n'}
+[5.039640] (servo_control) StdoutLine: {'line': b"writing list of installed files to '/home/eds-spiderbyte-01/ros2_motor/build/servo_control/install.log'\n"}
+[5.131946] (servo_control) CommandEnded: {'returncode': 0}
+[5.137260] (-) TimerEvent: {}
+[5.188179] (servo_control) JobEnded: {'identifier': 'servo_control', 'rc': 0}
+[5.191221] (-) EventReactorShutdown: {}

@@ -1,0 +1,4 @@
+[console_scripts]
+servo_publisher = servo_control.servo_controller:main
+servo_subscriber = servo_control.servo_subscriber:main
+

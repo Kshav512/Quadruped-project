@@ -1,0 +1,31 @@
+running egg_info
+creating ../../build/two_keys/two_keys.egg-info
+writing ../../build/two_keys/two_keys.egg-info/PKG-INFO
+writing dependency_links to ../../build/two_keys/two_keys.egg-info/dependency_links.txt
+writing entry points to ../../build/two_keys/two_keys.egg-info/entry_points.txt
+writing requirements to ../../build/two_keys/two_keys.egg-info/requires.txt
+writing top-level names to ../../build/two_keys/two_keys.egg-info/top_level.txt
+writing manifest file '../../build/two_keys/two_keys.egg-info/SOURCES.txt'
+reading manifest file '../../build/two_keys/two_keys.egg-info/SOURCES.txt'
+writing manifest file '../../build/two_keys/two_keys.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/eds-spiderbyte-01/ros2_motor/build/two_keys/build
+creating /home/eds-spiderbyte-01/ros2_motor/build/two_keys/build/lib
+creating /home/eds-spiderbyte-01/ros2_motor/build/two_keys/build/lib/two_keys
+copying two_keys/__init__.py -> /home/eds-spiderbyte-01/ros2_motor/build/two_keys/build/lib/two_keys
+running install
+running install_lib
+creating /home/eds-spiderbyte-01/ros2_motor/install/two_keys/lib/python3.10/site-packages/two_keys
+copying /home/eds-spiderbyte-01/ros2_motor/build/two_keys/build/lib/two_keys/__init__.py -> /home/eds-spiderbyte-01/ros2_motor/install/two_keys/lib/python3.10/site-packages/two_keys
+byte-compiling /home/eds-spiderbyte-01/ros2_motor/install/two_keys/lib/python3.10/site-packages/two_keys/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/eds-spiderbyte-01/ros2_motor/install/two_keys/share/ament_index
+creating /home/eds-spiderbyte-01/ros2_motor/install/two_keys/share/ament_index/resource_index
+creating /home/eds-spiderbyte-01/ros2_motor/install/two_keys/share/ament_index/resource_index/packages
+copying resource/two_keys -> /home/eds-spiderbyte-01/ros2_motor/install/two_keys/share/ament_index/resource_index/packages
+copying package.xml -> /home/eds-spiderbyte-01/ros2_motor/install/two_keys/share/two_keys
+running install_egg_info
+Copying ../../build/two_keys/two_keys.egg-info to /home/eds-spiderbyte-01/ros2_motor/install/two_keys/lib/python3.10/site-packages/two_keys-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/eds-spiderbyte-01/ros2_motor/build/two_keys/install.log'

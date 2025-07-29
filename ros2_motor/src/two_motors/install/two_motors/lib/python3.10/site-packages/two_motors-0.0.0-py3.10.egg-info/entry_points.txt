@@ -1,0 +1,4 @@
+[console_scripts]
+leg_pub = two_motors.leg_pub:main
+leg_sub = two_motors.leg_sub:main
+
